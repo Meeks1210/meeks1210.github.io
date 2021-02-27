@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+.banner
+{
+  background-color: #FF8811;
+  text-align: center;
+}
+
+.text-special
+{
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+
+.main-text 
+{
+  font-family: 'Bell MT';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bell MT W01'), local('BellMT'), url(http://themes.googleusercontent.com/licensed/font?kit=kmIaTfxu8bXVwPRMqRVUug) format('truetype');
+}
+
+.nav-item
+{
+  padding-right: 30px;
+}
+
+.welcome
+{
+  padding: 5%;
+  background-color: #F6D88E;
+  color: #2D2A32;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+.lead
+{
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.contact
+{
+  padding: 5%;
+  color: #2D2A32;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+.btn
+{
+  background-color: #9CFFFA;
+  color: #2D2A32;
+}
+.btn:hover
+{
+  background-color: #2D2A32;
+  color: #9CFFFA;
+}
+
+.staff
+{
+  padding: 5%;
+  background-color: #37D291;
+  color: #2D2A32;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+.card
+{
+  background-color: #8BE5BF;
+  display: inline-flex;
+}
+
+.footer
+{
+  padding: 5%;
+  background-color: #2D2A32;
+  color: #F6D88E;
+}
+.brand-color-org
+{
+  color: #FF8811;
+}
+
+.brand-color-blk
+{
+  color: #2D2A32;
+}
+
+.blue-link
+{
+  color: #00CCC2;
+  font-size: 120%;
+  transition: color 0.5s;
+}
+.blue-link:hover
+{
+  text-decoration: none;
+  color: #9CFFFA;
+}
+
+.fa-shopping-cart
+{
+  color: #00CCC2;
+  transition: color 0.5s;
+}
+.fa-shopping-cart:hover
+{
+  color: #9CFFFA;
+}
+
+.fa-user-circle
+{
+  color: #00CCC2;
+  transition: color 0.5s;
+}
+.fa-user-circle:hover
+{
+  color: #9CFFFA;
+}
+
+.brand-color-yel
+{
+  color: #F6D88E;
+}
+
+.brand-color-grn
+{
+  color: #37D291;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
